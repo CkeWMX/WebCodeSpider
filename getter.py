@@ -24,7 +24,7 @@ def replaceScriptContent(url,path):
 
 
 if __name__ == "__main__":
-    url = "https://www.biubiu001.com"
+    url = ""
     getter = requesttool.WebCodeGetter(url)
     # 创建目录 抓取前端源码
     getter.allOperateGetCode()
